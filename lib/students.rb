@@ -2,7 +2,7 @@
 require 'pry'
 def highest_student_gpa
   binding.pry
-  SELECT name FROM @db ORDER BY gpa DESC LIMIT 1;
+  #SELECT name FROM @db ORDER BY gpa DESC LIMIT 1;
 end
 
 def lowest_student_gpa
