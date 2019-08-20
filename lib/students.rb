@@ -1,8 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
-require 'pry'
+
 def highest_student_gpa
-  binding.pry
-  #SELECT name FROM @db ORDER BY gpa DESC LIMIT 1;
+  SELECT name FROM students ORDER BY gpa DESC LIMIT 1;
 end
 
 def lowest_student_gpa
